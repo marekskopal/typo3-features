@@ -10,3 +10,7 @@ plugin.tx_msfeatures_feature {
 }
 
 page.includeCSS.msfeatures = EXT:ms_features/Resources/Public/Css/Features.css
+
+[extensionLoaded('ms_pricing')]
+plugin.tx_mspricing.view.partialRootPaths.10 = EXT:ms_features/Resources/Private/Overrides/MsPricing/Partials/
+[end]

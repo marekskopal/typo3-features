@@ -53,6 +53,12 @@
 			<trans-unit id="flexform.template_layout">
 				<source>Template layout</source>
 			</trans-unit>
+			<trans-unit id="tx_mspricing_domain_model_feature.ms_features_feature">
+				<source>Linked Feature</source>
+			</trans-unit>
+			<trans-unit id="tx_mspricing_domain_model_feature.ms_features_feature.none">
+				<source>-- none --</source>
+			</trans-unit>
 		</body>
 	</file>
 </xliff>

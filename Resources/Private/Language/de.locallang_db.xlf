@@ -70,6 +70,14 @@
 				<source>Template layout</source>
 				<target>Vorlagenlayout</target>
 			</trans-unit>
+			<trans-unit id="tx_mspricing_domain_model_feature.ms_features_feature">
+				<source>Linked Feature</source>
+				<target>Verknüpftes Feature</target>
+			</trans-unit>
+			<trans-unit id="tx_mspricing_domain_model_feature.ms_features_feature.none">
+				<source>-- none --</source>
+				<target>-- keine --</target>
+			</trans-unit>
 		</body>
 	</file>
 </xliff>

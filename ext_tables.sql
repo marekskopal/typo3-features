@@ -9,3 +9,7 @@ CREATE TABLE tx_msfeatures_domain_model_feature (
     KEY sorting (sorting),
     KEY top (top)
 );
+
+CREATE TABLE tx_mspricing_domain_model_feature (
+    ms_features_feature int(11) DEFAULT 0 NOT NULL
+);

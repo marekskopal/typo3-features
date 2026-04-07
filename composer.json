@@ -48,6 +48,9 @@
             "extension-key": "ms_features"
         }
     },
+    "suggest": {
+        "marekskopal/typo3-pricing": "Enables linking pricing table features to feature showcase cards"
+    },
     "config": {
         "platform": {
             "php": "8.3"

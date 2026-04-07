@@ -1,0 +1,33 @@
+<html
+    xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers"
+    xmlns:msp="http://typo3.org/ns/MarekSkopal/MsPricing/ViewHelpers"
+    xmlns:msf="http://typo3.org/ns/MarekSkopal/MsFeatures/ViewHelpers"
+    data-namespace-typo3-fluid="true"
+>
+
+<tr class="mspricing-feature-row">
+    <td class="mspricing-feature__name">
+        <msf:linkedFeature pricingFeatureUid="{featureRow.feature.uid}" as="linkedFeature">
+            <f:if condition="{linkedFeature}">
+                <f:then>
+                    <span class="mspricing-feature__linked" title="{linkedFeature.title}">
+                        {featureRow.feature.name}
+                    </span>
+                </f:then>
+                <f:else>
+                    {featureRow.feature.name}
+                </f:else>
+            </f:if>
+        </msf:linkedFeature>
+        <f:if condition="{featureRow.feature.description}">
+            <span class="mspricing-feature__tooltip" title="{featureRow.feature.description}" aria-label="{featureRow.feature.description}">?</span>
+        </f:if>
+    </td>
+    <f:for each="{plans}" as="plan">
+        <td class="mspricing-cell {plan.cssClass}">
+            <f:variable name="planUid" value="{plan.uid}" />
+            <msp:cellValue planFeature="{featureRow.values.{planUid}}" />
+        </td>
+    </f:for>
+</tr>
+</html>
