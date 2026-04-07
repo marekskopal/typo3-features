@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+	<file source-language="en" target-language="de" datatype="plaintext" original="EXT:ms_features/Resources/Private/Language/locallang_db.xlf">
+		<body>
+			<trans-unit id="tx_msfeatures_domain_model_feature">
+				<source>Feature</source>
+				<target>Feature</target>
+			</trans-unit>
+			<trans-unit id="tx_msfeatures_domain_model_feature.title">
+				<source>Title</source>
+				<target>Titel</target>
+			</trans-unit>
+			<trans-unit id="tx_msfeatures_domain_model_feature.subtitle">
+				<source>Subtitle</source>
+				<target>Untertitel</target>
+			</trans-unit>
+			<trans-unit id="tx_msfeatures_domain_model_feature.perex">
+				<source>Perex</source>
+				<target>Kurztext</target>
+			</trans-unit>
+			<trans-unit id="tx_msfeatures_domain_model_feature.description">
+				<source>Description</source>
+				<target>Beschreibung</target>
+			</trans-unit>
+			<trans-unit id="tx_msfeatures_domain_model_feature.images">
+				<source>Images</source>
+				<target>Bilder</target>
+			</trans-unit>
+			<trans-unit id="tx_msfeatures_domain_model_feature.top">
+				<source>Topped</source>
+				<target>Hervorgehoben</target>
+			</trans-unit>
+			<trans-unit id="flexform.sheet_general">
+				<source>General</source>
+				<target>Allgemein</target>
+			</trans-unit>
+			<trans-unit id="flexform.ordering">
+				<source>Feature ordering</source>
+				<target>Reihenfolge der Features</target>
+			</trans-unit>
+			<trans-unit id="flexform.ordering.top_sorting">
+				<source>By sorting, topped on top</source>
+				<target>Nach Sortierung, Hervorgehobene oben</target>
+			</trans-unit>
+			<trans-unit id="flexform.ordering.sorting">
+				<source>By sorting</source>
+				<target>Nach Sortierung</target>
+			</trans-unit>
+			<trans-unit id="flexform.ordering.uid">
+				<source>By UID</source>
+				<target>Nach UID</target>
+			</trans-unit>
+			<trans-unit id="flexform.ordering.alphabetically">
+				<source>Alphabetically</source>
+				<target>Alphabetisch</target>
+			</trans-unit>
+			<trans-unit id="flexform.filter">
+				<source>Filter</source>
+				<target>Filter</target>
+			</trans-unit>
+			<trans-unit id="flexform.filter.all">
+				<source>Show all</source>
+				<target>Alle anzeigen</target>
+			</trans-unit>
+			<trans-unit id="flexform.filter.only_topped">
+				<source>Only topped</source>
+				<target>Nur hervorgehobene</target>
+			</trans-unit>
+			<trans-unit id="flexform.template_layout">
+				<source>Template layout</source>
+				<target>Vorlagenlayout</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

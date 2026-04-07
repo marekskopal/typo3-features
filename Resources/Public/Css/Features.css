@@ -1,0 +1,58 @@
+.msfeatures-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.msfeatures__list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 24px;
+}
+
+.msfeatures__item {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    background: #fff;
+}
+
+.msfeatures__item--topped {
+    border-color: #0073b6;
+    box-shadow: 0 2px 8px rgba(0, 115, 182, 0.15);
+}
+
+.msfeatures__image img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+}
+
+.msfeatures__content {
+    padding: 20px;
+}
+
+.msfeatures__title {
+    margin: 0 0 8px;
+    font-size: 1.25em;
+}
+
+.msfeatures__subtitle {
+    margin: 0 0 12px;
+    color: #555;
+    font-size: 1em;
+}
+
+.msfeatures__perex {
+    margin: 0 0 16px;
+    color: #333;
+    line-height: 1.5;
+}
+
+.msfeatures__description {
+    line-height: 1.6;
+}
+
+.msfeatures__empty {
+    color: #666;
+}

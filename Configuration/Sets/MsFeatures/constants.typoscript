@@ -1,0 +1,7 @@
+plugin.tx_msfeatures_feature {
+    view {
+        templateRootPath =
+        partialRootPath =
+        layoutRootPath =
+    }
+}

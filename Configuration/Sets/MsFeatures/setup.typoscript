@@ -1,0 +1,12 @@
+plugin.tx_msfeatures_feature {
+    view {
+        templateRootPaths.0 = EXT:ms_features/Resources/Private/Templates/
+        templateRootPaths.1 = {$plugin.tx_msfeatures_feature.view.templateRootPath}
+        partialRootPaths.0 = EXT:ms_features/Resources/Private/Partials/
+        partialRootPaths.1 = {$plugin.tx_msfeatures_feature.view.partialRootPath}
+        layoutRootPaths.0 = EXT:ms_features/Resources/Private/Layouts/
+        layoutRootPaths.1 = {$plugin.tx_msfeatures_feature.view.layoutRootPath}
+    }
+}
+
+page.includeCSS.msfeatures = EXT:ms_features/Resources/Public/Css/Features.css

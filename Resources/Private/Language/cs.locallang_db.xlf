@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+	<file source-language="en" target-language="cs" datatype="plaintext" original="EXT:ms_features/Resources/Private/Language/locallang_db.xlf">
+		<body>
+			<trans-unit id="tx_msfeatures_domain_model_feature">
+				<source>Feature</source>
+				<target>Vlastnost</target>
+			</trans-unit>
+			<trans-unit id="tx_msfeatures_domain_model_feature.title">
+				<source>Title</source>
+				<target>Název</target>
+			</trans-unit>
+			<trans-unit id="tx_msfeatures_domain_model_feature.subtitle">
+				<source>Subtitle</source>
+				<target>Podtitul</target>
+			</trans-unit>
+			<trans-unit id="tx_msfeatures_domain_model_feature.perex">
+				<source>Perex</source>
+				<target>Perex</target>
+			</trans-unit>
+			<trans-unit id="tx_msfeatures_domain_model_feature.description">
+				<source>Description</source>
+				<target>Popis</target>
+			</trans-unit>
+			<trans-unit id="tx_msfeatures_domain_model_feature.images">
+				<source>Images</source>
+				<target>Obrázky</target>
+			</trans-unit>
+			<trans-unit id="tx_msfeatures_domain_model_feature.top">
+				<source>Topped</source>
+				<target>Topováno</target>
+			</trans-unit>
+			<trans-unit id="flexform.sheet_general">
+				<source>General</source>
+				<target>Obecné</target>
+			</trans-unit>
+			<trans-unit id="flexform.ordering">
+				<source>Feature ordering</source>
+				<target>Řazení vlastností</target>
+			</trans-unit>
+			<trans-unit id="flexform.ordering.top_sorting">
+				<source>By sorting, topped on top</source>
+				<target>Dle pořadí, topované nahoře</target>
+			</trans-unit>
+			<trans-unit id="flexform.ordering.sorting">
+				<source>By sorting</source>
+				<target>Dle pořadí</target>
+			</trans-unit>
+			<trans-unit id="flexform.ordering.uid">
+				<source>By UID</source>
+				<target>Dle UID</target>
+			</trans-unit>
+			<trans-unit id="flexform.ordering.alphabetically">
+				<source>Alphabetically</source>
+				<target>Abecedně</target>
+			</trans-unit>
+			<trans-unit id="flexform.filter">
+				<source>Filter</source>
+				<target>Filtr</target>
+			</trans-unit>
+			<trans-unit id="flexform.filter.all">
+				<source>Show all</source>
+				<target>Zobrazit vše</target>
+			</trans-unit>
+			<trans-unit id="flexform.filter.only_topped">
+				<source>Only topped</source>
+				<target>Pouze topované</target>
+			</trans-unit>
+			<trans-unit id="flexform.template_layout">
+				<source>Template layout</source>
+				<target>Rozvržení šablony</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

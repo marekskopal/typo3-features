@@ -1,0 +1,16 @@
+<f:layout name="Default" />
+
+<f:section name="Main">
+    <f:if condition="{features}">
+        <f:then>
+            <div class="msfeatures__list">
+                <f:for each="{features}" as="feature">
+                    <f:render partial="Feature/Item" arguments="{feature: feature}" />
+                </f:for>
+            </div>
+        </f:then>
+        <f:else>
+            <p class="msfeatures__empty"><f:translate key="plugin.feature.empty" /></p>
+        </f:else>
+    </f:if>
+</f:section>

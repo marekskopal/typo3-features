@@ -1,0 +1,21 @@
+<div class="msfeatures__item{f:if(condition: feature.top, then: ' msfeatures__item--topped')}">
+    <f:if condition="{feature.mainImage}">
+        <div class="msfeatures__image">
+            <f:image image="{feature.mainImage}" maxWidth="800" alt="{feature.title}" />
+        </div>
+    </f:if>
+    <div class="msfeatures__content">
+        <h3 class="msfeatures__title">{feature.title}</h3>
+        <f:if condition="{feature.subtitle}">
+            <p class="msfeatures__subtitle">{feature.subtitle}</p>
+        </f:if>
+        <f:if condition="{feature.perex}">
+            <p class="msfeatures__perex">{feature.perex}</p>
+        </f:if>
+        <f:if condition="{feature.description}">
+            <div class="msfeatures__description">
+                <f:format.html>{feature.description}</f:format.html>
+            </div>
+        </f:if>
+    </div>
+</div>

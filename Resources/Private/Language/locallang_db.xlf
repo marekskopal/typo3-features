@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+	<file source-language="en" datatype="plaintext" original="EXT:ms_features/Resources/Private/Language/locallang_db.xlf">
+		<body>
+			<trans-unit id="tx_msfeatures_domain_model_feature">
+				<source>Feature</source>
+			</trans-unit>
+			<trans-unit id="tx_msfeatures_domain_model_feature.title">
+				<source>Title</source>
+			</trans-unit>
+			<trans-unit id="tx_msfeatures_domain_model_feature.subtitle">
+				<source>Subtitle</source>
+			</trans-unit>
+			<trans-unit id="tx_msfeatures_domain_model_feature.perex">
+				<source>Perex</source>
+			</trans-unit>
+			<trans-unit id="tx_msfeatures_domain_model_feature.description">
+				<source>Description</source>
+			</trans-unit>
+			<trans-unit id="tx_msfeatures_domain_model_feature.images">
+				<source>Images</source>
+			</trans-unit>
+			<trans-unit id="tx_msfeatures_domain_model_feature.top">
+				<source>Topped</source>
+			</trans-unit>
+			<trans-unit id="flexform.sheet_general">
+				<source>General</source>
+			</trans-unit>
+			<trans-unit id="flexform.ordering">
+				<source>Feature ordering</source>
+			</trans-unit>
+			<trans-unit id="flexform.ordering.top_sorting">
+				<source>By sorting, topped on top</source>
+			</trans-unit>
+			<trans-unit id="flexform.ordering.sorting">
+				<source>By sorting</source>
+			</trans-unit>
+			<trans-unit id="flexform.ordering.uid">
+				<source>By UID</source>
+			</trans-unit>
+			<trans-unit id="flexform.ordering.alphabetically">
+				<source>Alphabetically</source>
+			</trans-unit>
+			<trans-unit id="flexform.filter">
+				<source>Filter</source>
+			</trans-unit>
+			<trans-unit id="flexform.filter.all">
+				<source>Show all</source>
+			</trans-unit>
+			<trans-unit id="flexform.filter.only_topped">
+				<source>Only topped</source>
+			</trans-unit>
+			<trans-unit id="flexform.template_layout">
+				<source>Template layout</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>
