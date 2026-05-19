@@ -2,4 +2,5 @@ name: marekskopal/typo3-features-pricing
 label: Features (Pricing override)
 dependencies:
   - marekskopal/typo3-features
+optionalDependencies:
   - marekskopal/typo3-pricing
